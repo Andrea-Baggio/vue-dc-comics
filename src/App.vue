@@ -1,8 +1,8 @@
 <template>
   <div>
-    <header-page-vue></header-page-vue>
-    <main-page-vue></main-page-vue>
-    <footer-page-vue></footer-page-vue>
+    <HeaderPageVue />
+    <MainPageVue />
+    <FooterPageVue />
   </div>
 </template>
 
