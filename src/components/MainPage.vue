@@ -6,7 +6,15 @@
     <div class="icons-container">
       <div class="image-container">
         <img src="@/img/buy-comics-digital-comics.png" alt="">
-        <img src="@/img/buy-comics-digital-comics.png" alt="">
+        <span>DIGITAL COMICS</span>
+        <img src="@/img/buy-comics-merchandise.png" alt="">
+        <span>MERCHANDISE</span>
+        <img src="@/img/buy-comics-subscriptions.png" alt="">
+        <span>SUBSCRIBTIONS</span>
+        <img src="@/img/buy-comics-shop-locator.png" alt="">
+        <span>COMICS SHOP LOCATOR</span>
+        <img src="@/img/buy-dc-power-visa.svg" alt="">
+        <span>DC POWER VISA</span>
       </div>
     </div>
   </main>
@@ -32,13 +40,22 @@ export default {
   }
   .icons-container {
     background-color: rgb(2, 130, 249);
-    padding: 2rem 0;
+    padding: 3rem 0;
   }
   .image-container {
-    height: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
   }
   .image-container img {
+    padding-left: 5rem;
     height: 100%;
+  }
+
+  span {
+    margin-left: .6em;
+    font-size: .8em;
   }
 
 </style>
