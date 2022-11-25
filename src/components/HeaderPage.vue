@@ -45,7 +45,6 @@ export default {
     display: flex;
     justify-content: space-evenly;
     flex: 0 0 70%;
-    list-style: none;
   }
 
   li {
@@ -58,6 +57,5 @@ export default {
   li:hover {
     cursor: pointer;
     color: rgb(2, 130, 249);
-    border-bottom: 5px solid rgb(2, 130, 249);
   }
 </style>

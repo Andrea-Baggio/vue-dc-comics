@@ -1,10 +1,13 @@
 <template>
   <main>
-    <div class="link-container">
-    <a href="#">--> Content goes here &#x3c;--</a>
+    <div class="content">
+      <div class="content-box">
+        Here
+      </div>
     </div>
-    <div class="icons-container">
-      <div class="image-container">
+
+    <div class="images">
+      <div class="images-box">
         <img src="@/img/buy-comics-digital-comics.png" alt="">
         <span>DIGITAL COMICS</span>
         <img src="@/img/buy-comics-merchandise.png" alt="">
@@ -22,40 +25,43 @@
 
 <script>
 export default {
-
+  name: 'MainPage',
 };
 </script>
 
 <style lang="scss" scoped>
-  .link-container {
-    background-color: rgb(28, 28, 28);
-    padding: 2rem 0;
-  }
+.content {
+  background-color: rgb(28, 28, 28);
+  color: white;
+  font-size: 2em;
+  padding: 2rem 0;
+}
+.content-box {
+  margin: auto;
+  width: 1100px;
+}
 
-  a {
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-    padding: 5rem;
-  }
-  .icons-container {
-    background-color: rgb(2, 130, 249);
-    padding: 3rem 0;
-  }
-  .image-container {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    color: white;
-  }
-  .image-container img {
-    padding-left: 5rem;
-    height: 100%;
-  }
+.images {
+  background-color: rgb(2, 130, 249);
+  color: white;
+  font-size: .8em;
+  padding: 2rem 0;
+}
 
-  span {
-    margin-left: .6em;
-    font-size: .8em;
-  }
+.images-box {
+  margin: auto;
+  width: 1100px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
 
+.images-box img{
+  height: 100%;
+}
+
+span {
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
 </style>
