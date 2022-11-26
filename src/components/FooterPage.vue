@@ -25,19 +25,19 @@
 
         <div class="second-col">
           <h3>DC</h3>
-            <ul>
-              <li>Term Of Use</li>
-              <li>Privacy policy (New)</li>
-              <li>Ad Choices</li>
-              <li>Advertising</li>
-              <li>Jobs</li>
-              <li>Subscriptions</li>
-              <li>Talent Workshops</li>
-              <li>CPSC Certificates</li>
-              <li>Ratings</li>
-              <li>Shop Help</li>
-              <li>Contacr Us</li>
-            </ul>
+          <ul>
+            <li>Term Of Use</li>
+            <li>Privacy policy (New)</li>
+            <li>Ad Choices</li>
+            <li>Advertising</li>
+            <li>Jobs</li>
+            <li>Subscriptions</li>
+            <li>Talent Workshops</li>
+            <li>CPSC Certificates</li>
+            <li>Ratings</li>
+            <li>Shop Help</li>
+            <li>Contacr Us</li>
+          </ul>
         </div>
 
         <div class="third-col">
@@ -78,9 +78,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .list-bg {
   background-image: url('@/img/footer-bg.jpg');
   padding: 3rem 0;
+  display: flex;
+  position: relative;
 }
 
 .list-container {
